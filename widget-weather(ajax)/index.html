@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+    <title>weather</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Погода</h1>
+      <form>
+        <label for="city">Введите название города(UK, EN, RU):</label>
+        <input type="text" id="city" name="city">
+        <button type="submit">Получить погоду</button>
+      </form>
+      <p>Температура: <span id="temp"></span>°C</p>
+      <p>Тиск: <span id="pressure"></span> гПа</p>
+      <p>Опис: <span id="description"></span></p>
+      <p>Вологість: <span id="humidity"></span>%</p>
+      <p>Швидкість вітру: <span id="speed"></span> м/с</p>
+      <p>Напрям вітру: <span id="deg"></span>°</p>
+      <img id="icon" src="" alt="Погода">
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>

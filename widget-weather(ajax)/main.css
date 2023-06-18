@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: aquamarine;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-image: url(./weather.jpg);
+    color: #3f1b60;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
